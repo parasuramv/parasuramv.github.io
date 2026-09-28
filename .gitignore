@@ -2,3 +2,7 @@
 *.log
 *.dvi
 .DS_Store
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
