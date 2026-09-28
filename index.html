@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$',  right: '$',  display: false}
+      ]
+    });"></script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +58,7 @@
 <p style="font-size: 0.85em; color: #666; margin-top: 0;">Teaching the Bolzano-Weierstrass theorem, SWIM 2025, Bengaluru.</p>
 
 <p>
-  I work on nonlinear partial differential equations, with a focus on evolution equations.
+  I work on hyperbolic conservation laws, a species of nonlinear partial differential equations that generally take the form of a space-time divergence, i.e. $$\partial_t u + \nabla \cdot f(u) = 0.$$
   I am fascinated by nonlinearity and its consequences for well-posedness, i.e. existence, uniqueness, and regularity of solutions. My present research focuses on the effects of spatial heterogeneity and non-local terms in hyperbolic conservation laws.
 </p>
 

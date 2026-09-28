@@ -1,3 +1,3 @@
 Minimalist academic website.
 
-TeX support coming soon.
+Math rendered with KaTeX.
