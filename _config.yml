@@ -1,0 +1,3 @@
+# github-pages defaults to jekyll-theme-primer when no theme is set.
+# We supply our own layouts and CSS, so turn the theme off explicitly.
+theme: null
