@@ -1,3 +1,15 @@
 # github-pages defaults to jekyll-theme-primer when no theme is set.
 # We supply our own layouts and CSS, so turn the theme off explicitly.
 theme: null
+
+# Posts live in _posts/ and are served under /notes/<slug>/.
+# Front-matter defaults: every post gets these unless it overrides them.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /notes/:title/
+      body_class: note
+      math: true
