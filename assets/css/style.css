@@ -36,3 +36,9 @@ figcaption { font-size: 0.85em; color: #666; line-height: 1.5; text-align: cente
 
 .papers ol, .posters ol { padding-left: 1.4em; }
 .papers li, .posters li { margin-bottom: 1em; }
+
+/* ---------- Notes (blog posts) ---------- */
+.note h2 { font-size: 1.15em; margin-top: 2em; }
+.note figure img { width: auto; max-width: 100%; display: block; margin: 0 auto; }
+.note blockquote { margin: 1.5em 0; padding-left: 1em; border-left: 3px solid #ccc; color: #444; }
+.note .katex-display { overflow-x: auto; overflow-y: hidden; }
