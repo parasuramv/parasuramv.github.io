@@ -34,8 +34,8 @@ figcaption { font-size: 0.85em; color: #666; line-height: 1.5; text-align: cente
 
 .papers h2 { font-size: 1em; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2em; margin-bottom: 0.8em; color: #444; }
 
-.papers ol, .posters ol { padding-left: 1.4em; }
-.papers li, .posters li { margin-bottom: 1em; }
+.papers ol, .talks ol { padding-left: 1.4em; }
+.papers li, .talks li { margin-bottom: 1em; }
 
 /* ---------- Notes (blog posts) ---------- */
 .note h2 { font-size: 1.15em; margin-top: 2em; }

@@ -13,3 +13,6 @@ defaults:
       permalink: /notes/:title/
       body_class: note
       math: true
+
+plugins:
+  - jekyll-redirect-from
